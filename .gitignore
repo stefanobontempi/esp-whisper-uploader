@@ -1,0 +1,113 @@
+# ESP-IDF / ESP32 build artifacts
+build/
+dist/
+sdkconfig.old
+managed_components/
+dependencies.lock
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Logs
+*.log
+log/
+logs/
+
+# Configuration files with secrets
+config.local.*
+secrets.*
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Certificate and key files
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Audio files (if used for testing)
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.flac
+
+# Documentation builds
+docs/_build/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Node.js (if any web components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Ninja
+.ninja_deps
+.ninja_log
+build.ninja
+
